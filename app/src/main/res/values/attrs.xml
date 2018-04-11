@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <declare-styleable name="GridButton">
+        <attr name="blockNumber" format="integer" />
+        <attr name="containsNote" format="boolean" />
+    </declare-styleable>
+</resources>

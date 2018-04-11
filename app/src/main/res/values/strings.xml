@@ -1,0 +1,65 @@
+<resources>
+    <string name="app_name">Quaiver</string>
+    <string name="action_settings">Settings</string>
+    <string name="title_activity_main2">Main2Activity</string>
+    <string name="title_activity_main3">Main3Activity</string>
+    
+    <string-array name="Pitches">
+        <item>A 2</item>
+        <item>A# 2</item>
+        <item>B 2</item>
+        <item>C 2</item>
+        <item>C# 2</item>
+        <item>D 2</item>
+        <item>D# 2</item>
+        <item>E 2</item>
+        <item>F 2</item>
+        <item>F# 2</item>
+        <item>G 2</item>
+        <item>G# 2</item>
+        <item>A 3</item>
+        <item>A# 3</item>
+        <item>B 3</item>
+        <item>C 3</item>
+        <item>C# 3</item>
+        <item>D 3</item>
+        <item>D# 3</item>
+        <item>E 3</item>
+        <item>F 3</item>
+        <item>F# 3</item>
+        <item>G 3</item>
+        <item>G# 3</item>
+        <item>A 4</item>
+        <item>A# 4</item>
+        <item>B 4</item>
+        <item>C 4</item>
+        <item>C# 4</item>
+        <item>D 4</item>
+        <item>D# 4</item>
+        <item>E 4</item>
+        <item>F 4</item>
+        <item>F# 4</item>
+        <item>G 4</item>
+        <item>G# 4</item>
+        <item>A 5</item>
+        <item>A# 5</item>
+        <item>B 5</item>
+        <item>C 5</item>
+        <item>C# 5</item>
+        <item>D 5</item>
+        <item>D# 5</item>
+        <item>E 5</item>
+        <item>F 5</item>
+        <item>F# 5</item>
+        <item>G 5</item>
+        <item>G# 5</item>
+    </string-array>
+
+    <string-array name="times">
+        <item>1</item>
+        <item>2</item>
+        <item>4</item>
+        <item>8</item>
+        <item>16</item>
+    </string-array>
+</resources>

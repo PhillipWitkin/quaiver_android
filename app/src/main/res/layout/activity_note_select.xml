@@ -1,0 +1,78 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.constraint.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.example.phillipwitkin.quaiver.NoteSelect">
+
+    <Spinner
+        android:id="@+id/pitchSpinner"
+        android:layout_width="146dp"
+        android:layout_height="37dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        android:layout_marginBottom="337dp"
+        android:layout_marginRight="8dp"
+        app:layout_constraintRight_toRightOf="parent"
+        android:layout_marginLeft="8dp"
+        app:layout_constraintLeft_toLeftOf="parent"
+        app:layout_constraintHorizontal_bias="0.036" />
+
+    <TextView
+        android:id="@+id/pitchLabel"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Select Pitch"
+        android:textSize="15dp"
+        app:layout_constraintTop_toTopOf="parent"
+        android:layout_marginTop="8dp"
+        android:layout_marginBottom="8dp"
+        app:layout_constraintBottom_toTopOf="@+id/pitchSpinner"
+        android:layout_marginRight="8dp"
+        app:layout_constraintRight_toRightOf="parent"
+        android:layout_marginLeft="8dp"
+        app:layout_constraintLeft_toLeftOf="parent"
+        app:layout_constraintHorizontal_bias="0.154"
+        app:layout_constraintVertical_bias="0.808"
+        android:layout_marginStart="8dp"
+        android:layout_marginEnd="8dp" />
+
+    <TextView
+        android:id="@+id/durationLabel"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Select Duration"
+        android:textSize="15dp"
+        app:layout_constraintTop_toTopOf="parent"
+        android:layout_marginTop="8dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        android:layout_marginBottom="8dp"
+        app:layout_constraintVertical_bias="0.174"
+        app:layout_constraintLeft_toRightOf="@+id/pitchLabel"
+        android:layout_marginLeft="103dp" />
+
+    <Spinner
+        android:id="@+id/durationSpinner"
+        android:layout_width="130dp"
+        android:layout_height="43dp"
+        app:layout_constraintLeft_toRightOf="@+id/pitchSpinner"
+        android:layout_marginLeft="62dp"
+        android:layout_marginTop="23dp"
+        app:layout_constraintTop_toBottomOf="@+id/durationLabel" />
+
+    <Button
+        android:id="@+id/selectNote"
+        android:onClick="selectNote"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Select Note"
+        app:layout_constraintTop_toTopOf="parent"
+        android:layout_marginTop="8dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        android:layout_marginBottom="8dp"
+        android:layout_marginRight="8dp"
+        app:layout_constraintRight_toRightOf="parent"
+        android:layout_marginLeft="8dp"
+        app:layout_constraintLeft_toLeftOf="parent"
+        app:layout_constraintVertical_bias="0.68" />
+</android.support.constraint.ConstraintLayout>

@@ -1,0 +1,178 @@
+<?xml version="1.0" encoding="utf-8"?>
+<GridLayout xmlns:android="http://schemas.android.com/apk/res/android"
+
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    xmlns:custom="http://schemas.android.com/apk/res-auto"
+    android:columnCount="7"
+    android:rowCount="4"
+    tools:context="com.example.phillipwitkin.quaiver.MainActivityBlockView">
+
+
+    <TextView
+        android:id="@+id/LsequenceName"
+        android:layout_row="0"
+        android:layout_column="1"
+        android:layout_columnSpan="4"
+        android:text="Sequence Name"
+        android:textSize="20dp"
+        />
+
+    <com.example.phillipwitkin.quaiver.GridButton
+        custom:containsNote="false"
+        custom:blockNumber="1"
+        android:id="@+id/Lblock1"
+        android:layout_margin="5dp"
+        android:layout_column="0"
+        android:layout_row="1"
+        android:layout_width="80dp"
+        android:layout_height="80dp"
+        android:text="Block1"
+        android:background="@color/blockOpen"
+        android:onClick="onClickBlock"
+        />
+
+    <com.example.phillipwitkin.quaiver.GridButton
+        custom:containsNote="false"
+        custom:blockNumber="2"
+        android:id="@+id/Lblock2"
+        android:layout_margin="5dp"
+        android:layout_column="1"
+        android:layout_row="1"
+        android:layout_width="80dp"
+        android:layout_height="80dp"
+        android:text="Block2"
+        android:onClick="onClickBlock"
+        />
+
+    <com.example.phillipwitkin.quaiver.GridButton
+        custom:containsNote="false"
+        custom:blockNumber="3"
+        android:id="@+id/Lblock3"
+        android:layout_margin="5dp"
+        android:layout_column="2"
+        android:layout_row="1"
+        android:layout_width="80dp"
+        android:layout_height="80dp"
+        android:text="Block3"
+        android:onClick="onClickBlock"
+        />
+
+    <com.example.phillipwitkin.quaiver.GridButton
+        custom:containsNote="false"
+        custom:blockNumber="4"
+        android:id="@+id/Lblock4"
+        android:layout_margin="5dp"
+        android:layout_column="3"
+        android:layout_row="1"
+        android:layout_width="80dp"
+        android:layout_height="80dp"
+        android:text="Block4"
+        android:onClick="onClickBlock"
+        />
+
+    <com.example.phillipwitkin.quaiver.GridButton
+        custom:containsNote="false"
+        custom:blockNumber="5"
+        android:id="@+id/Lblock5"
+        android:layout_margin="5dp"
+        android:layout_column="0"
+        android:layout_row="2"
+        android:layout_width="80dp"
+        android:layout_height="80dp"
+        android:text="Block5"
+        android:onClick="onClickBlock"
+        />
+
+    <com.example.phillipwitkin.quaiver.GridButton
+        custom:containsNote="false"
+        custom:blockNumber="6"
+        android:id="@+id/Lblock6"
+        android:layout_margin="5dp"
+        android:layout_column="1"
+        android:layout_row="2"
+        android:layout_width="80dp"
+        android:layout_height="80dp"
+        android:text="Block6"
+        android:onClick="selectNote"
+        />
+
+    <com.example.phillipwitkin.quaiver.GridButton
+        custom:containsNote="false"
+        custom:blockNumber="7"
+        android:id="@+id/Lblock7"
+        android:layout_margin="5dp"
+        android:layout_column="2"
+        android:layout_row="2"
+        android:layout_width="80dp"
+        android:layout_height="80dp"
+        android:text="Block7"
+        android:onClick="onClickBlock"
+        />
+
+    <com.example.phillipwitkin.quaiver.GridButton
+        custom:containsNote="false"
+        custom:blockNumber="8"
+        android:id="@+id/Lblock8"
+        android:layout_margin="5dp"
+        android:layout_column="3"
+        android:layout_row="2"
+        android:layout_width="80dp"
+        android:layout_height="80dp"
+        android:text="Block8"
+        android:onClick="onClickBlock"
+        />
+
+    <Button
+        android:id="@+id/LplaySeqeunce"
+        android:layout_marginLeft="25dp"
+        android:layout_marginTop="15dp"
+        android:layout_row="1"
+        android:layout_column="4"
+        android:text="Play"
+        android:onClick="playSequence"
+        />
+
+    <Button
+        android:id="@+id/LstopSequence"
+        android:layout_marginLeft="25dp"
+        android:layout_marginTop="15dp"
+        android:layout_row="2"
+        android:layout_column="4"
+        android:text="Stop"
+        android:onClick="stopSequence"
+        />
+
+    <Button
+        android:id="@+id/LcreateSequence"
+        android:layout_marginTop="25dp"
+        android:layout_row="3"
+        android:layout_column="0"
+        android:layout_columnSpan="2"
+        android:text="Save New Sequence"
+        android:onClick="saveNewSequence"
+        />
+
+    <Button
+        android:id="@+id/LupdateSequence"
+        android:layout_marginTop="25dp"
+        android:layout_row="3"
+        android:layout_column="2"
+        android:layout_columnSpan="2"
+        android:text="Save Current Sequence"
+        android:onClick="updateSequence"
+        />
+
+    <Button
+        android:id="@+id/LloadSequence"
+        android:layout_marginLeft="35dp"
+        android:layout_marginTop="25dp"
+        android:layout_row="3"
+        android:layout_column="4"
+        android:layout_columnSpan="1"
+        android:text="Load Sequence"
+        android:onClick="loadSequence"
+        />
+
+</GridLayout>
