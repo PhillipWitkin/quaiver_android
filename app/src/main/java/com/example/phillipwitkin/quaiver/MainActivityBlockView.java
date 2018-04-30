@@ -81,6 +81,7 @@ public class MainActivityBlockView extends AppCompatActivity {
             blocks[7].setBlockNumber(7);
             sequenceName = (TextView)findViewById(R.id.LsequenceName);
         }
+
         else if( newConfig.orientation == Configuration.ORIENTATION_PORTRAIT ) {
             setContentView(R.layout.activity_main_block_view);
             blocks[0] = (GridButton)findViewById(R.id.block1);
